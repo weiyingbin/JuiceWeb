@@ -1,0 +1,102 @@
+* {
+	font-size: 14px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+img {
+	width: 30px;
+	height: 50px;
+}
+.Each{
+	margin-top:50px;
+}
+.imfor_box div {
+	height: 40px;
+	background-color: deepskyblue;
+	font-weight: bold;
+	line-height: 40px;
+}
+.imfor div {
+	height: 100px;
+	line-height: 120px;
+}
+.imfor:hover {
+	background: RGB(238, 246, 255);
+}
+.check,.check_box {
+	width: 70px;
+}
+.pudc,.pudc_top {
+	width: 400px;
+}
+.pices,.pices_top {
+	width: 60px;
+}
+.totle {
+	color: red;
+}
+.num,.num_top {
+	width: 100px;
+}
+
+.num input {
+	margin-top:50px;
+	width: 40px;
+}
+.num span {
+	margin-top:50px;
+	height: 23px;
+	width: 20px;
+	border: 1px solid #e5e5e5;
+	background: #f0f0f0;
+	text-align: center;
+	line-height: 23px;
+	color: #444;
+	cursor: pointer;
+	display: inline-block;
+}
+.totle,.totle_top {
+	width: 60px;
+}
+.del,.del_top {
+	width: 60px;
+	cursor: pointer;
+}
+.imfor_box div,.imfor div {
+	float: left;
+	border: 1px solid deepskyblue;
+	text-align: center;
+}
+.imfor_top,.imfor {
+	width: 800px;
+}
+#box,#goods_box {
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 800px;
+}
+
+
+.foot {
+	width: 800px;
+}
+.foot_del,.foot_page,.foot_tol,.foot_cash {
+	border-radius: 5px;
+	float: left;
+	cursor: pointer;
+	height:20px;
+	margin-top: 14px;
+	margin-left: 15%;
+	border: #000000 1px solid;
+	background: #FFFFAA;
+	padding:3px;
+}
+#susum {
+	color: red;
+}

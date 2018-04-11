@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN"> <!-- 这个status是控制系统信息的输出级别-->
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT"> <!--将日志信息从控制台输出 -->
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <!-- Root level 是设置全局的信息显示级别，这里设置为error表示：error及以上的信息将被输出
+    信息的级别大小为：trace < debug < info < warn < error < fatal  -->
+    <Root level="info">
+       <AppenderRef ref="Console"/>   <!-- 仅有上述的Appenders配置还不够，这里还不能少，少了就不会在控制台输出 -->
+    </Root>
+    <!--  可以专门为某个类指定信息级别，例如为main包下的Main类指定信息级别为trace -->
+    <!-- <Logger name="main.Main" level="trace" />  -->
+  </Loggers>
+</Configuration>
